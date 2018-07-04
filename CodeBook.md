@@ -28,6 +28,8 @@ This code book is for the `tidy.txt` file in this repository.  Refer to the READ
     
 ####Measurements
 
+Prior to normalisation, acceleration measurements (variables containing Accelerometer) were made in g's (9.81 m.s???²) and gyroscope measurements (variables containing Gyroscope) were made in radians per second (rad.s???¹).  Magnitudes of three-dimensional signals (variables containing Magnitude) were calculated using the Euclidean norm.
+
 #####Time Domain - Body Acceleration Means
 *  `time_Body_Accelerometer_Mean_X`
 *  `time_Body_Accelerometer_Mean_Y`
